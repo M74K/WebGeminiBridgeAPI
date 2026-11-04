@@ -1,22 +1,62 @@
-# WebGeminiBridgeAPI
-### Turn Gemini Web into an OpenAI-compatible API.
+# 🌉 GeminiWebBridge
 
-WebGeminiBridgeAPI is a lightweight local API bridge that allows you to use Google's Gemini Web interface through an OpenAI-compatible API endpoint.
-Instead of using the official Gemini API and managing API keys, WebGeminiBridgeAPI communicates with your existing authenticated Gemini Web session and exposes it through a local HTTP server.
-This makes it possible to integrate Gemini Web models into applications and tools that support the OpenAI Chat Completions API.
+**Use Google Gemini Web as an OpenAI-compatible API.**
 
-✨ Features
+GeminiWebBridge is a lightweight Python application that allows you to use Gemini Web models through a local OpenAI-compatible API.
 
-OpenAI-compatible API — use Gemini Web through the familiar /v1/chat/completions endpoint.
+Instead of using the official Gemini API, it connects to your existing authenticated Gemini Web session.
 
-Existing Gemini session — authenticate using your Gemini Web session cookies.
+## ✨ Features
 
-Model discovery — automatically detect available models from your Gemini session.
+- OpenAI-compatible API
+- Gemini Web session authentication
+- Automatic model discovery
+- Multiple Gemini models
+- Streaming responses
+- Local HTTP server
+- Easy terminal configuration
 
-Multiple models — access supported Gemini models through a single local API.
+## 🚀 Installation
 
-Streaming support — stream generated responses when supported by the client and bridge.
+Step 1. Clone the repository:
 
-Local HTTP server — run the bridge locally without deploying an external server.
+```bash
+git clone https://github.com/YOUR_USERNAME/GeminiWebBridge.git
+```
 
-Simple configuration — configure the Gemini session URL, cookies, host and port through the terminal.
+Step 2. Open the project folder:
+
+```bash
+cd GeminiWebBridge
+```
+
+Step 3. Run the application:
+
+```bat
+start.bat
+```
+
+4. Follow the instructions in the terminal to configure your Gemini session.
+
+## 📡 API Example
+
+```json
+{
+  "model": "gemini-3.8-flash",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hello, Gemini!"
+    }
+  ],
+  "stream": true
+}
+```
+
+## ⚠️ Disclaimer
+
+GeminiWebBridge is an unofficial project and is not affiliated with Google.
+
+It uses internal Gemini Web communication mechanisms that may change without notice.
+
+Keep your Gemini session cookies private and never share them publicly.
