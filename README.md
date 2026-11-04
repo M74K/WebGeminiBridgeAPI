@@ -22,6 +22,14 @@ Local HTTP server
 
 Easy terminal configuration
 
+## 🖥️ Platform Support
+
+- ✅ Windows — currently supported.
+- 🔜 Linux — planned.
+- 🔜 macOS — planned.
+
+Currently, GeminiWebBridge is available only for Windows. Support for Linux and macOS is planned for future releases.
+
 ## 🚀 Installation
 
 Step 1. Clone the repository:
