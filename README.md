@@ -1,20 +1,26 @@
-# 🌉 GeminiWebBridge
+# GeminiWebBridgeAPI
 
 **Use Google Gemini Web as an OpenAI-compatible API.**
 
-GeminiWebBridge is a lightweight Python application that allows you to use Gemini Web models through a local OpenAI-compatible API.
+GeminiWebBridgeAPI is a lightweight Python application that allows you to use Gemini Web models through a local OpenAI-compatible API.
 
 Instead of using the official Gemini API, it connects to your existing authenticated Gemini Web session.
 
 ## ✨ Features
 
-- OpenAI-compatible API
-- Gemini Web session authentication
-- Automatic model discovery
-- Multiple Gemini models
-- Streaming responses
-- Local HTTP server
-- Easy terminal configuration
+OpenAI-compatible API
+
+Gemini Web session authentication
+
+Automatic model discovery
+
+Multiple Gemini models
+
+Streaming responses
+
+Local HTTP server
+
+Easy terminal configuration
 
 ## 🚀 Installation
 
@@ -36,7 +42,7 @@ Step 3. Run the application:
 start.bat
 ```
 
-4. Follow the instructions in the terminal to configure your Gemini session.
+Step 4. Follow the instructions in the terminal to configure your Gemini session.
 
 ## 📡 API Example
 
