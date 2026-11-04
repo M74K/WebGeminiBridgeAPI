@@ -35,7 +35,7 @@ Currently, GeminiWebBridgeAPI is available only for Windows. Support for Linux a
 Step 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/GeminiWebBridge.git
+git clone https://github.com/M74K/WebGeminiBridgeAPI.git
 ```
 
 Step 2. Open the project folder:
@@ -69,7 +69,7 @@ Step 4. Follow the instructions in the terminal to configure your Gemini session
 
 ## ⚠️ Disclaimer
 
-GeminiWebBridge is an unofficial project and is not affiliated with Google.
+GeminiWebBridgeAPI is an unofficial project and is not affiliated with Google.
 
 It uses internal Gemini Web communication mechanisms that may change without notice.
 
